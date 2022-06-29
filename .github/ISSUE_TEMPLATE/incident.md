@@ -1,5 +1,5 @@
 ---
-name: Incident
+name: IncidentExample
 about: Raise an incident
 title: 'Incident : '
 labels: incident
