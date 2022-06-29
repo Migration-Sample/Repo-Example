@@ -4,7 +4,7 @@ title: "[Incident]: "
 labels: ["incident", "triage"]
 assignees:
   - SushmitabSinha
-project:
+projects:
   - Backlog
 body:
   - type: markdown
