@@ -44,7 +44,7 @@ body:
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: textarea
-    id: default tag
+    id: defaulttag
     attributes:
       label: Mail Trigger
       description: This will trigger a mail to Support Team
