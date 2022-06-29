@@ -1,7 +1,7 @@
-mname: Incident
-description: File an incident
+mname: SupportRequest
+description: Raise a Support Request
 title: "[Bug]: "
-labels: ["incident", "triage"]
+labels: ["SupportQuery", "triage"]
 assignees:
   - octocat
 body:
