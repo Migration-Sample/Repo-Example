@@ -1,5 +1,5 @@
 mname: SupportRequest
-description: Raise a Support Request
+description: Raise a SupportRequest
 title: "[Bug]: "
 labels: ["SupportQuery", "triage"]
 assignees:
