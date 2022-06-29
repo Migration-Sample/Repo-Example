@@ -3,7 +3,7 @@ description: File an incident
 title: "[Incident]: "
 labels: ["incident", "triage"]
 assignees:
-  - SDR-Support
+  - SushmitabSinha
 body:
   - type: markdown
     attributes:
