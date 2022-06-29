@@ -9,6 +9,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this Incident!
+        @Migration-Sample/sdr-support
   - type: input
     id: contactdetails
     attributes:
@@ -66,7 +67,3 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-          
-          
-          
-  @Migration-Sample/sdr-support
