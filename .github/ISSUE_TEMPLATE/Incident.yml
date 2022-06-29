@@ -1,7 +1,7 @@
 name: Incident
 description: File an incident
 title: "[Incident]: "
-labels: ["incident", "triage"]
+labels: ["incident"]
 assignees:
   - SushmitabSinha
 body:
@@ -9,7 +9,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this Incident!
-        @Migration-Sample/sdr-support
   - type: input
     id: contactdetails
     attributes:
@@ -24,41 +23,35 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: " @Migration-Sample/sdr-support"
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: type
     attributes:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - API
+        - UI
+        - Database
+        - Infra
     validations:
       required: true
-  - type: input
-    id : contact
-    attributes:
-       label: contact details
-       description: How can we get in touch with you if we need more info?
-       placeholder: sushmita.b.sinha@accenture.com
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
+      label: Can you please provide some log output?
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+  - type: textarea
+    id: default tag
+    attributes:
+      label: Mail Trigger
+      description: This will trigger a mail to Support Team
+      placeholder: Notify
+      value: "@Migration-Sample/sdr-support"
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
