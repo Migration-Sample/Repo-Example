@@ -4,8 +4,6 @@ title: "[Incident]: "
 labels: ["incident", "triage"]
 assignees:
   - SushmitabSinha
-projects:
-  - Backlog
 body:
   - type: markdown
     attributes:
@@ -38,6 +36,9 @@ body:
         - 1.0.3 (Edge)
     validations:
       required: true
+  - type: Mentioned
+    attributes:
+       label: @SDR-Support
   - type: dropdown
     id: browsers
     attributes:
