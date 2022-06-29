@@ -36,9 +36,12 @@ body:
         - 1.0.3 (Edge)
     validations:
       required: true
-  - type: Mentioned
+  - type: input
+    id : contact
     attributes:
-       label: @SDR-Support
+       label: contact details
+       description: How can we get in touch with you if we need more info?
+       placeholder: sushmita.b.sinha@accenture.com
   - type: dropdown
     id: browsers
     attributes:
