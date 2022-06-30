@@ -1,6 +1,6 @@
 name: AccessRequest
 description: Raise an Access Request
-title: "[Access Request]: "
+title: "[AccessRequest]: "
 labels: ["AccessRequest", "triage"]
 assignees:
   - octocat
