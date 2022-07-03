@@ -25,3 +25,11 @@ body:
       placeholder: Please provide full details
     validations:
       required: true
+   - type: input
+    id: Type of Access
+    attributes:
+      label: What type of access
+      description: Type of access needed
+      placeholder: Provide the details of access type
+    validations:
+      required: true
