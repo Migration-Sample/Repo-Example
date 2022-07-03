@@ -25,7 +25,7 @@ body:
       placeholder: Please provide full details
     validations:
       required: true
-   - type: input
+  - type: input
     id: Type of Access
     attributes:
       label: What type of access
