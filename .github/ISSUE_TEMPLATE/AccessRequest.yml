@@ -3,7 +3,7 @@ description: Raise an Access Request
 title: "[AccessRequest]: "
 labels: ["AccessRequest", "triage"]
 assignees:
-  - octocat
+  - SushmitabSinha
 # project:
 #   - Backlog
 body:
