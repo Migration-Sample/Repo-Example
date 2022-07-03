@@ -26,7 +26,7 @@ body:
     validations:
       required: true
   - type: input
-    id: Type of Access
+    id: Type_of_Access
     attributes:
       label: What type of access
       description: Type of access needed
