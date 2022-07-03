@@ -4,13 +4,11 @@ title: "[AccessRequest]: "
 labels: ["AccessRequest", "triage"]
 assignees:
   - SushmitabSinha
-# project:
-#   - Backlog
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this access request form!
   - type: input
     id: contact
     attributes:
@@ -19,12 +17,11 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: UserName
     attributes:
       label: User Name with Email ID
       description: Details for Access Request
       placeholder: Please provide full details
-#       value: "A bug happened!"
     validations:
       required: true
