@@ -4,8 +4,8 @@ title: "[AccessRequest]: "
 labels: ["AccessRequest", "triage"]
 assignees:
   - octocat
-project:
-  - Backlog
+# project:
+#   - Backlog
 body:
   - type: markdown
     attributes:
