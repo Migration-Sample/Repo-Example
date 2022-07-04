@@ -36,8 +36,9 @@ body:
   - type: input
     id: Approval
     attributes:
-      label: Approval needs to approve
+      label: Approver needs to approve
       description: Approval needed
       placeholder: Please type approved for approving
+      value: "@Migration-Sample/sdr-support"
     validations:
       required: true
