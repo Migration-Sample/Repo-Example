@@ -20,8 +20,8 @@ body:
   - type: textarea
     id: ReproSteps
     attributes:
-      label: How to see the bug. End by contrasting expected with actual behavior
-      description: Steps to reproduce the Bug
+      label: Steps to reproduce the Bug
+      description: How to see the bug. End by contrasting expected with actual behavior
       placeholder: Please provide full detailed steps
     validations:
       required: true
