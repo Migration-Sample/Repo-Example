@@ -1,7 +1,7 @@
 name: AccessRequest
 description: Raise an Access Request
 title: "[AccessRequest]: "
-labels: ["AccessRequest", "triage"]
+labels: ["AccessRequest"]
 assignees:
   - SushmitabSinha
 body:
@@ -31,5 +31,13 @@ body:
       label: What type of access
       description: Type of access needed
       placeholder: Provide the details of access type
+    validations:
+      required: true
+  - type: input
+    id: Approval
+    attributes:
+      label: Approval needs to approve
+      description: Approval needed
+      placeholder: Please type approved for approving
     validations:
       required: true
