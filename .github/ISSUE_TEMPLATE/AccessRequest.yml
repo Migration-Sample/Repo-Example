@@ -41,6 +41,6 @@ body:
       label: Approver
       description: Approval required for onboarding in SDR
       placeholder: Please type approved for approving the request
-      value: "@TCB Group",Please type approved for approving the request
+      value: "@TCB Group, Please type approved in comments for approving the request"
     validations:
       required: true
