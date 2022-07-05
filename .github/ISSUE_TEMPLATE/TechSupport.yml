@@ -1,6 +1,6 @@
 name: SupportRequest
 description: Raise a Tech Support
-title: "[Bug]: "
+title: "[TechSupport]: "
 labels: ["TechSupport"]
 assignees:
   - SushmitabSinha
@@ -18,34 +18,26 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: what-type
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: Technical Support Details
+      description: Also tell us, what is the issue?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "A Tech Support!"
     validations:
       required: true
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Choose the option
+      description: Whether API, UI or Infra
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - UI
+        - API
+        - Infra
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+
 #   - type: checkboxes
 #     id: terms
 #     attributes:
