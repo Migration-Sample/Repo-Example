@@ -21,7 +21,7 @@ body:
     id: what-type
     attributes:
       label: Technical Support Details
-      description: Also tell us, what is the issue?
+      description: Also tell us, details
       placeholder: Tell us what you see!
       value: "A Tech Support!"
     validations:
