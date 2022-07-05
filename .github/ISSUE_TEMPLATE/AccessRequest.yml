@@ -20,7 +20,7 @@ body:
   - type: input
     id: CompanyName
     attributes:
-      label: CompanyName
+      label: Company Name
       description: Provide user company name
       placeholder: example- xyz
     validations:
@@ -28,8 +28,8 @@ body:
   - type: dropdown
     id: Type_of_Access
     attributes:
-      label: What type of access
-      description: Type of access needed for the user
+      label: What type of access?
+      description: Type of access needed for the user in SDR
       options:
         - SDR UI Access
         - SDR API Access
