@@ -1,5 +1,5 @@
 name: AccessRequest
-description: Raise an Access Request
+description: A request form to access the SDR shared environment. This issue requires approval from TransCelerate BioPharma before resolution.
 title: "[AccessRequest]: "
 labels: ["AccessRequest"]
 assignees:
