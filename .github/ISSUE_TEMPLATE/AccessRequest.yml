@@ -39,7 +39,7 @@ body:
     id: Approval
     attributes:
       label: Approver
-      description: Approval required for onboarding in SDR
+      description: Approval required for onboarding in SDR. Please write approve in comment section for approval.
       placeholder: Please type approved for approving the request
       value: "@TCB Group"
     validations:
