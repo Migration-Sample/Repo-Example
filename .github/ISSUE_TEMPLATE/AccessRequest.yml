@@ -22,7 +22,7 @@ body:
     attributes:
       label: CompanyName
       description: Provide user company name
-      placeholder: example: xyz
+      placeholder: example- xyz
     validations:
       required: true
   - type: dropdown
