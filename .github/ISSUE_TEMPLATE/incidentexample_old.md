@@ -1,6 +1,6 @@
 ---
 name: IncidentExample
-about: Raise an incident
+about: Raise an incident.
 title: 'Incident : '
 labels: incident
 assignees: SushmitabSinha
