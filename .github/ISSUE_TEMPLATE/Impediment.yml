@@ -1,5 +1,5 @@
 name: Impediment
-description: Raise a impediment
+description: An issue blocking the scrum development team from proceeding with a planned item in the sprint
 title: "[Impediment]:"
 labels: ["impediment"]
 assignees:
