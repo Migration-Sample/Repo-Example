@@ -1,5 +1,5 @@
 name: Story
-description: Create a Story
+description: A new requirement of the SDR product, that is yet to be developed.
 title: "[Story]: "
 labels: ["story"]
 assignees:
@@ -9,19 +9,10 @@ body:
     attributes:
       value: |
         Thanks for taking the time to create a story!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
     id: description
     attributes:
       label: Description 
-      description: Description or reference to the story that must work for this work to be considered complete
+      description: Description or reference to the story that must work for this work to be considered complete.Please select label among API, UI, Infra, Documentation, Testing, Database (on or more) in addition to story label. 
       placeholder: Please provide description
     validations:
       required: true
