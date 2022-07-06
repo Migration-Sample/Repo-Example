@@ -1,5 +1,5 @@
 name: Incident
-description: File an incident
+description: An issue that is causing downtime to the SDR environment for single or multiple users connecting to the system.
 title: "[Incident]: "
 labels: ["incident"]
 assignees:
@@ -28,35 +28,19 @@ body:
   - type: dropdown
     id: type
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Environment
+      description: Which environment are you raising incident for?
       options:
-        - API
-        - UI
-        - Database
-        - Infra
+        - Sandbox
     validations:
       required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: Can you please provide some log output?
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
   - type: textarea
     id: defaulttag
     attributes:
       label: Mail Trigger
-      description: This will trigger a mail to Support Team
-      placeholder: Notify
+      description: This will trigger a mail to Support Team!
+      placeholder: Notify the Support Team. You can mention anyone with @username.
       value: "@Migration-Sample/sdr-support"
     validations:
       required: true
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+ 
