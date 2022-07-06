@@ -23,7 +23,6 @@ body:
       label: Technical Support Details
       description: Tell us the details of the incident!
       placeholder: Tell us what you see!
-      value: "A Tech Support!"
     validations:
       required: true
   - type: dropdown
