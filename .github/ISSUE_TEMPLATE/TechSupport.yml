@@ -1,7 +1,7 @@
 name: TechSupport
-description: Raise a Tech Support
-title: "[TechSupport]: "
-labels: ["TechSupport"]
+description: A form for requesting technical support on SDR including code, documentation etc.
+title: "[TechSupport]:"
+labels: ["SupportQuery"]
 assignees:
   - SushmitabSinha
 body:
@@ -21,7 +21,7 @@ body:
     id: what-type
     attributes:
       label: Technical Support Details
-      description: Also tell us, details
+      description: Tell us the details of the incident!
       placeholder: Tell us what you see!
       value: "A Tech Support!"
     validations:
@@ -35,14 +35,7 @@ body:
         - UI
         - API
         - Infra
+        - Documents
+        - Access
     validations:
       required: true
-
-#   - type: checkboxes
-#     id: terms
-#     attributes:
-#       label: Code of Conduct
-#       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-#       options:
-#         - label: I agree to follow this project's Code of Conduct
-#           required: true
