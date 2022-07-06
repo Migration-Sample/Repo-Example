@@ -28,7 +28,7 @@ body:
   - type: textarea
     id: ResolvedReason
     attributes:
-      label: ResolvingReason
+      label: Resolving Reason
       description: Reasons for bug getting resolved. Attach screenshot as applicable.
       placeholder: Please provide full details.
     validations:
