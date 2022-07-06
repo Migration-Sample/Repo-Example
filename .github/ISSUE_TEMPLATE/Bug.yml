@@ -1,5 +1,5 @@
 name: Bug
-description: Raise a Bug
+description: An issue which prevents the function of the product from working as expected.
 title: "[Bug]: "
 labels: ["bug"]
 assignees:
@@ -20,9 +20,9 @@ body:
   - type: textarea
     id: ReproSteps
     attributes:
-      label: Steps to reproduce the Bug
-      description: How to see the bug. End by contrasting expected with actual behavior
-      placeholder: Please provide full detailed steps
+      label: Steps to reproduce the Bug.
+      description: How to see the bug. End by contrasting expected with actual behavior.
+      placeholder: Please provide full detailed steps.
     validations:
       required: true
   - type: input
@@ -37,7 +37,7 @@ body:
     id: ResolvedReason
     attributes:
       label: ResolvingReason
-      description: Reasons for bug getting resolved
-      placeholder: Please provide full details
+      description: Reasons for bug getting resolved. Attach screenshot as applicable.
+      placeholder: Please provide full details.
     validations:
       required: false
