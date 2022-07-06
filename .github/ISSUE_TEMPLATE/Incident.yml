@@ -38,8 +38,8 @@ body:
     id: defaulttag
     attributes:
       label: Mail Trigger
-      description: This will trigger a mail to Support Team!
-      placeholder: Notify the Support Team. You can mention anyone with @username.
+      description: This will trigger a mail to Support Team.You can mention anyone with @username.
+      placeholder: Notify the Support Team.
       value: "@Migration-Sample/sdr-support"
     validations:
       required: true
